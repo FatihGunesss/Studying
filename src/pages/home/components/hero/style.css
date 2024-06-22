@@ -1,0 +1,231 @@
+.background-box {
+    background-color: #FFF2E1;
+    position: relative;
+    height: 837px;
+}
+
+.background-box::before {
+    content: "";
+    background-image: url("assets/image/circile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 626px;
+    height: 101px;
+}
+
+.background-box::after {
+    content: "";
+    background-image: url("assets/image/circile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 626px;
+    height: 101px;
+    transform: rotateY(180deg);
+    
+}
+
+
+.hero-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-title {
+    max-width: 540px;
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 192px;
+    color: #2F327D;
+    margin-bottom: 34px;
+}
+
+.hero-title span {
+    color: #F48C06;
+}
+
+.hero-desc {
+    max-width: 395px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #464646;
+    margin-bottom: 52px;
+}
+
+.btn-watch__desc-info {
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.hero-btn1__wrapper {
+    margin-right: 30px;
+}
+
+.hero-btn {
+    border: none;
+    border-radius: 80px;
+    background-color: #F48C06;
+    color: #fff;
+    padding: 14px 28px 14px 27px;
+}
+
+.hero-btn2__wrapper {
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-btn__play {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    background-color: #fff;
+    color: #23BDEE;
+    font-size: 20px;
+    margin-right: 14px;
+}
+
+
+
+/* Right style */
+.hero-right__info {
+    position: relative;
+}
+
+.hero-qiz__image {
+    position: relative;
+    width: 85%;
+    z-index: 10;
+}
+
+.hero-assisted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 16px 28px 15px 28px;
+    position: absolute;
+    top: 240px;
+    left: -65px;
+    z-index: 11;
+}
+
+.assisted-nd{
+    color: rgba(89, 89, 89, 1);
+}
+
+.assisted-number{
+    font-size: 18px;
+}
+
+.hero-icon {
+    position: absolute;
+    top: 170px;
+    right: 60px;
+}
+
+.hero-icon img {
+    width: 80%;
+}
+
+.hero-user__class {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 37%;
+    bottom: 250px;
+    left: -90px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 20px 31px 28px 26px;
+    border-radius: 20px;
+    z-index: 11;
+}
+
+.hero-user__image {
+    width: 20%;
+    height: 20%;
+}
+
+.hero-green__round {
+    position: absolute;
+    left: 65px;
+    top: 61px;
+    display: block;
+    width: 12px;
+    height: 12px;
+    border: 2px solid rgba(251, 236, 215, 1);
+    border-radius: 50%;
+    background-color: rgba(46, 187, 94, 1);
+    z-index: 11;
+
+}
+
+.hero-user__title {
+    font-size: 18px;
+    color: rgba(89, 89, 89, 1);
+}
+
+.hero-user__desc {
+    font-size: 16px;
+    color: rgba(89, 89, 89, 1);
+    margin-bottom: 20px;
+}
+
+.hero-user__btn {
+    border: none;
+    border-radius: 80px;
+    padding: 10px 35px 10px 35px;
+    background-color: rgba(216, 88, 126, 1);
+    color: #fff;
+    cursor: pointer;
+}
+
+.hero-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 44%;
+    right: 85px;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    padding: 14px;
+    width: 35%;
+    z-index: 11;
+}
+
+.hero-message__title {
+    font-size: 18px;
+    color: rgba(89, 89, 89, 1);
+    margin-bottom: 2px;
+}
+
+.hero-check {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: rgba(78, 227, 129, 1);
+    color: #fff;
+    border-radius: 50%;
+    border: none;
+}
+
+.hero-message__desc {
+    color: rgba(84, 85, 103, 1);
+}

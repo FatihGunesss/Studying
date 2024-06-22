@@ -1,0 +1,48 @@
+.background-color{
+    background-color: #FFF2E1;
+    position: relative;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu__and-buttons{
+    display: flex;
+    align-items: center;
+}
+
+.nav-info{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.nav-buttons{
+    display: flex;
+}
+
+.nav-button1{
+    background-color: #fff;
+    color: #6C6C6C;
+    border: none;
+    border-radius: 80px;
+    margin-right: 34px;
+    padding: 13px 45px 14px 46px;
+    cursor: pointer;
+}
+
+.nav-button2{
+    background-color: #F48C06;
+    color: #fff;
+    border: none;
+    border-radius: 80px;
+    margin-right: 34px;
+    padding: 13px 36px 14px 37px;
+    cursor: pointer;
+}

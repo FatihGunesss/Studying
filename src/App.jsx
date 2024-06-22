@@ -1,5 +1,4 @@
-
-import { Footer, Header } from 'components';
+import { Footer, Nav } from 'components'
 import { Home } from 'pages';
 
 import './App.css';
@@ -8,7 +7,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      <Header/>
+      <Nav/>
       <Home/>
       <Footer/>
     </div>

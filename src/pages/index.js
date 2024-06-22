@@ -1,5 +1,5 @@
-import Home from './home'
+import Nav from "../components/nav";
+import Home from "./home";
+import Footer from "../components/footer";
 
-export {
-    Home
-}
+export { Nav, Home, Footer };
