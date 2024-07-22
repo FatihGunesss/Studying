@@ -1,0 +1,35 @@
+.teachers-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.teachers-left__info{
+    width: 25%;
+}
+
+.teachers-left__title{
+    width: 100%;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #2F327D;
+}
+
+.teachers-span{
+    color: #F48C06;
+}
+
+.teachers-left__desc{
+    width: 100%;
+    line-height: 30px;
+    color: #696984;
+}
+
+.teachers-right__info{
+    width: 35%;
+}
+
+.teachers-right__info img{
+    width: 100%;
+}

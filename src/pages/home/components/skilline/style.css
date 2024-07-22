@@ -1,0 +1,84 @@
+.skilline-wrapper{
+    margin-bottom: 160px;
+}
+
+.skilline-td{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skilline-title{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.skilline-span1{
+    color: #2F327D;
+}
+
+.skilline-span2{
+    color: #F48C06;
+}
+
+.skilline-desc{
+    width: 42%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 70px;
+    color: rgba(105, 105, 132, 1);
+}
+
+.skilline-image__wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.skilline-image__left{
+    background-image: url("assets/image/icon/skilline1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    
+}
+
+.skilline-image__right{
+    background-image: url("assets/image/icon/skilline2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skilline-image__title{
+    color: #fff;
+    margin-bottom: 17px;
+}
+
+.skilline-btn__left{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 12px 16px 12px 16px;
+}
+
+.skilline-btn__right{
+    background-color: rgba(35, 189, 238, 0.9);
+    backdrop-filter: blur(-1px);
+    color: #fff;
+    border: 1px solid #23BDEE;
+    border-radius: 20px;
+    padding: 12px 16px 12px 16px;
+}

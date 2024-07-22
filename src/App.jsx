@@ -1,16 +1,13 @@
-import { Footer, Nav } from 'components'
-import { Home } from 'pages';
-
-import './App.css';
-
+import { Footer, Nav } from "components";
+import { Home } from "pages";
 
 function App() {
   return (
-    <div>
-      <Nav/>
-      <Home/>
-      <Footer/>
-    </div>
+    <>
+      <Nav />
+      <Home />
+      <Footer />
+    </>
   );
 }
 

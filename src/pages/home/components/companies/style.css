@@ -1,0 +1,32 @@
+.companies-wrapper{
+    margin-top: 100px;
+}
+
+.companies-title{
+    text-align: center;
+    font-size: 28px;
+    color: #696984;
+    margin-bottom: 32px;
+}
+
+.companies-logo{
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+    gap: 50px;
+    margin-bottom: 160px;
+}
+
+.companies-logo img{
+    width: 150px;
+    object-fit: contain;
+}
+
+.companie-amazon{
+    margin-top: 20px;
+}
+
+

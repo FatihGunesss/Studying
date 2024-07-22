@@ -1,0 +1,48 @@
+.discussions-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.discussions-left__info{
+    width: 35%;
+}
+
+.discussions-image{
+    width: 100%;
+}
+
+.discussions-right__info{
+    width: 22%;
+}
+
+.discussions-title{
+    font-size: 28px;
+    color: #2F327D;
+    margin-bottom: 20px;
+}
+
+.discussions-span{
+    color: #F48C06;
+}
+
+.discussions-desc{
+    line-height: 25px;
+    color: #696984;
+}
+
+.discussion-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discussion-btn{
+    border: 1px solid #F48C06;
+    border-radius: 80px;
+    background-color: transparent;
+    color: #F48C06;
+    padding: 14px 30px 14px 30px;
+    margin-bottom: 120px;
+}

@@ -1,0 +1,33 @@
+.enducator-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.enducator-left__info{
+    width: 22%;
+}
+
+.enducator-title{
+    font-size: 28px;
+    color: #2F327D;
+    margin-bottom: 20px;
+}
+
+.enducator-span{
+    color: #F48C06;
+}
+
+.enducator-desc{
+    color: #696984;
+    line-height: 26px;
+}
+
+.enducator-right__info{
+    width: 50%;
+}
+
+.enducator-image{
+    width: 100%;
+}

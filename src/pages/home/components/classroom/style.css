@@ -1,0 +1,67 @@
+.classroom-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 220px;
+}
+
+.classroom-left__info {
+    width: 27%;
+    position: relative;
+}
+
+.classroom-circle::after {
+    content: "";
+    border: 1px solid #F48C06;
+    border-radius: 50%;
+    border: none;
+    padding: 15px 17px 21px 20px;
+    background-color: #F4B767;
+    position: absolute;
+    top: -5px;
+    left: -13px;
+    z-index: -1;
+}
+
+.classroom-circle2::before {
+    content: "";
+    border: 1px solid #F48C06;
+    border-radius: 50%;
+    border: none;
+    padding: 3px 4px 15px 15px;
+    background-color: #F4B767;
+    position: absolute;
+    bottom: 102px;
+    right: -35px;
+    z-index: -1;
+}
+
+.classroom-title {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.classroom-span1 {
+    color: #2F327D;
+}
+
+.classroom-span2 {
+    color: #F48C06;
+}
+
+.classroom-desc {
+    width: 101%;
+    color: #696984;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.classroom-link {
+    color: #696984;
+}
+
+.classroom-image {
+    width: 33vw;
+}

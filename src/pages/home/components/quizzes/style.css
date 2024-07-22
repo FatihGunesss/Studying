@@ -1,0 +1,36 @@
+.quizzes-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.quizzes-left__info{
+    width: 35%;
+}
+
+.quizzes-image{
+    width: 100%;
+}
+
+.quizzes-right__info{
+    width: 20%;
+}
+
+.quizzes-title{
+    width: 100%;
+    line-height: 40px;
+    font-size: 28px;
+    color: #2F327D;
+    margin-bottom: 20px;
+}
+
+.quizzes-span{
+    color: #F48C06;
+}
+
+.quizzes-desc{
+    width: 100%;
+    line-height: 25px;
+    color: #696984;
+}
