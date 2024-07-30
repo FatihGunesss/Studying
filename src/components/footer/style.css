@@ -1,0 +1,125 @@
+.footer-wrapper{
+    background-color: #252641;  
+    height: 550px;
+}
+
+.footer-logo__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 150px;
+    padding-top: 75px;
+}
+
+.footer-line{
+    border: 1px solid #626381;
+    padding: 20px 0 20px 0;
+}
+
+.footer-zoom{
+    width: 10%;
+}
+
+.footer-logo__title{
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+}
+
+.footer-search__wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 95px;
+}
+
+.footer-search__title{
+    color: #B2B3CF;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.footer-email__wrap{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-search{
+    border: 1px solid #626381;
+    border-radius: 80px;
+    background-color: transparent;
+    font-size: 17px;
+    padding: 14px 30px 14px 30px;
+    width: 350px;
+}
+
+.footer-search::placeholder{
+    letter-spacing: 2px;
+    color: #83839A;
+}
+
+.footer-btn{
+    border-radius: 60px;
+    border: none;
+    background-color: rgba(57, 63, 207, 1);
+    color: #ffffff;
+    padding: 14px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.footer-copyRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.footer-copyRight__titles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyRight__title{
+    font-size: 18px;
+    color: #B2B3CF;
+    line-height: 30px;
+    position: relative;
+    padding-right: 30px;
+}
+
+.footer-copyRight__title:nth-child(2)::before{
+    content: "";
+    width: 1px;
+    height: 17px;
+    background-color: #626381;
+    position: absolute;
+    top: 7px;
+    left: -16px;
+}
+
+.footer-copyRight__title:nth-child(2)::after{
+    content: "";
+    width: 1px;
+    height: 17px;
+    background-color: #626381;
+    position: absolute;
+    top: 7px;
+    right: 14px;
+}
+
+.copyRight{
+    color: #B2B3CF;
+    margin-top: 20px;
+}
+
+
+
